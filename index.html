@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Casa Latina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css"/>
+    <link rel="stylesheet" href="Fonts/webfontkit-20170318-142205/stylesheet.css"/>
+    <link rel="stylesheet" href="Fonts/font_awesome/css/font-awesome.min.css"/>
+
+
+  </head>
+
+  <body>
+
+      <header>
+
+        <div class="logo">
+          <img src="Images/casalatina_logo.png" class="logo">
+        </div>
+
+      <!-- <div class="header-contact"> -->
+
+         <div class="email-phone">
+            <ul>
+                <li><a href="mailto:info@casalatina.com" target="_top"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@casalatina.com</a></li>
+                <li><a href="tel:1-800-555-1212"><i class="fa fa-phone" aria-hidden="true"></i> (507)850.123.1234</a></li>
+            </ul>
+         </div>
+
+      <!-- </div> -->
+
+      <nav>
+        <i class="fa fa-bars hamburger" aria-hidden="true"></i>
+        <ul class="hamburger-content">
+          <li class ="nav-menu"><a href="#About"class="nav-link">About Us</a></li>
+          <li class ="nav-menu"><a href="#Products"class="nav-link">Our Products</a></li>
+          <li class ="nav-menu" ><a href="#Form"class="nav-link">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      </header>
+
+      <div class="hero-container">
+            <h1 class="hero-tagline">The Home of Latin American Folk Art.</h1>
+            <a href="#Map" class="primary-button">Find Us</a>
+      </div>
+
+
+
+      <section>
+
+        <article class="about-us">
+          <h2 class="subeheader-one" id="About">About Us</a></h2>
+          <hr>
+          <div class="about-parent">
+              <p class="about-text">
+                     Casa Latina is comprised of two ethos of handicrafts, one focusing primarily on Panamanian crafts
+                     stemming from different indigenous groups primarily from the Darien region.  The second focused on
+                     the Andean region of Latin America. We invite you to experience the beauty and historical importance
+                     of Latin American folk art.
+              </p>
+              <div class="mi-casa">
+                <h3 class="about-tagline">Mi Casa Es Tu Casa.</h3>
+              </div>
+          </div>
+        </article>
+
+        <article class="featured-products">
+          <h2 class="subeheader-two" id="Products">Featured Products</h2>
+          <hr>
+          <p>
+               All our products are thoughtfully hand-picked, we pride ourselved in the relationships with local artisans.
+               Each item holds cultural and historical signficance.
+          </p>
+        </article>
+
+        <article class="featured-products-imgs">
+          <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <img class="mySlides" src="Images/basket_1.jpeg">
+          <img class="mySlides" src="Images/panamahat_1.jpg">
+          <img class="mySlides" src="Images/spondylus_1.jpeg">
+          <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        </article>
+
+      </section>
+
+      <footer>
+        <div class="contact-us">
+            <div class ="form-settings">
+              <h2 class="subeheader-three" id="Form">Contact Us</h2>
+              <form action="submit.php" method="get">
+                <div class="text-fields">
+                    <lable class="form-textfields">
+                        Name:  <input type="text" name="username" size="12" maxlength="12" />
+                   </lable>
+                   <lable class="form-email form-textfields">
+                        Email:  <input type="text" name="username" size="12" maxlength="12" />
+                   </lable>
+                   <lable class="form-subject form-textfields">
+                        Subject: <input type="text" name="username" size="12" maxlength="12" />
+                   </lable>
+               </div>
+
+               <div class="message-parent">
+                 Message: <lable class="form-message">
+                       <textarea name="message" cols="40" rows="10">Enter your message...</textarea>
+                 </lable>
+                 <button class="form-button" type="submit"> Send </button>
+               </div>
+
+              </form>
+            </div>
+          </div>
+      <div class="location">
+        <h2 class="subeheader-three" id="Map">Find Us</h2>
+      <div class="footer-contact">
+        <div class= "contactinfo-footer">
+          <div class= "copyright-text">
+            <p>
+               ©2015 Casa Latina Inc.
+            </p>
+          </div>
+          <div class="email-phone">
+            <ul>
+              <li><a href="mailto:info@casalatina.com" target="_top"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@casalatina.com</a></li>
+              <li><a href="tel:1-800-555-1212"><i class="fa fa-phone" aria-hidden="true"></i> (507)850.123.1234</a></li>
+            </ul>
+          </div>
+          <div class="social-media">
+                <ul>
+                  <li><a href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <span>Facebook</span></a></li>
+
+                  <li><a href="#">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <span>Instagram</span></a></li>
+
+                  <li><a href="#">
+                  <i class="fa fa-pinterest" aria-hidden="true"></i>
+                  <span>Pinterest</span></a></li>
+               </ul>
+            </div>
+          </div>
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15764.899194442945!2d-79.534604!3d8.951422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c067deb42e05aff!2sCasa+Latina+Panam%C3%A1!5e0!3m2!1sen!2sca!4v1489106326379" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+       </div>
+      </div>
+
+    </footer>
+  <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+  </body>
+  </html>
