@@ -6,8 +6,10 @@ $(function() {
 
 })
 $ (function buttonFunction() {
-    $('.form-button').on('click',function (){
+    $('.form-button').on('click',function(event){
+      event.preventDefault();
       alert("Thank you for getting in touch. We'll get back to you shortly!");
+
     })
 })
 var slideIndex = 1;
