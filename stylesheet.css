@@ -147,6 +147,10 @@ ul li {
 		width: 100%;
   }
 
+	header a:hover{
+		color: #8116CE;
+	}
+
 	img.logo {
     width: 12rem;
 		margin-top: 0;
